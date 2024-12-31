@@ -1,0 +1,59 @@
+.body{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+}
+.textarea{
+    width: 98%;
+    aspect-ratio: 4/3;
+    background-color:#002B36 ;
+    color: #18e7ff;
+    border: none;
+    overflow-x: auto;
+}
+.textarea:focus{
+    outline: #18e7ff;
+}
+
+.btn{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    aspect-ratio: 5/1;
+    box-shadow: 0 2px 2px 0 black;
+}
+
+.btn_container_item{
+    padding: 5px;
+    display: inline-block;
+    width: 20%;
+}
+.right_section{
+    float: right;
+    width: 25%;
+    background-color: #002B36;
+    height: 100%;
+    color: white;
+    aspect-ratio: 5/10;
+}
+.left_section{
+    float: left;
+    width: 25%;
+    background-color: #002B36;
+    height: 100%;
+    color: white;
+    aspect-ratio: 5/10;
+}
+.error_section_style{
+   bottom: 0;
+}
+.left_section,.right_section, textarea{
+    box-shadow: 0 0 1px 1px black;
+}
+.text_section,.error_section_style{
+    width: 50%;
+    left: 25%;
+    position: absolute;
+    z-index: 1;
+}

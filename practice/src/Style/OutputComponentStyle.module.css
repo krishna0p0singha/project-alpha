@@ -1,0 +1,46 @@
+.status_icon{
+    float: right;
+    width: 24px;
+    opacity: 1;
+    animation: icon_visible 2s infinite linear;
+}
+
+@keyframes icon_visible {
+    0%{
+        opacity: 0}
+    50%{opacity: 1}
+    100%{
+        opacity: 0;}
+}
+.main_container{
+    box-shadow: 0 2px 2px 0 black;
+}
+.input, .output,.status_pass{
+    padding-left: 20px;
+    background-color: #404040;
+    width: 20%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.test_cases{
+    background-color: #011c22;
+    border: 1px black solid;
+    margin-top: 1%;
+    box-shadow: 0 0  1px 1px #00ffff;
+    font-size: 80%;
+}
+.status_pass{
+float: left;
+}
+hr{
+    border-radius: 10px;
+    height: 5px;
+    border: none;
+    width: 100%;
+    float: left;
+    animation: hr_visible 0.5s linear;
+}
+@keyframes hr_visible {
+    from{ width: 0}
+    to{ width: 100%}
+}

@@ -1,0 +1,10 @@
+.error_header{
+    aspect-ratio: 20/1;
+    box-shadow: 0 0 1px 1px #2AA198;
+}
+.error_body{
+    aspect-ratio: 10/2;
+    background-color: #002B36;
+    width: 98%;
+    box-shadow: 0 0 4px 1px black;
+}

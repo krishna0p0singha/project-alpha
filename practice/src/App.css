@@ -1,0 +1,122 @@
+:root{
+  background-color: #404040;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+legend{
+  color: orange;
+}
+div{
+  border-radius: 6px;
+}
+button{
+  margin-top: 1%;
+  background-color: #404040;
+  color: #FDF6E3;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+button:active{
+  background-image: linear-gradient(to left, #4e4ef3, #00ffff);
+  box-shadow: 0 2px #00ffff;
+  transform: translateY(1px);
+}
+button:hover{
+  background-color:#FDF6E3;
+  color:  #404040;
+}
+.solarized-button {
+  background-color: #404040; /* Blue */
+  color: #FDF6E3; /* Light Cream */
+  border: 1px solid #839496; /* Light Cyan-Gray */
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.solarized-button:hover {
+  background-color: #2AA198;
+  transform: scale(1.0);
+}
+
+.solarized-button:active {
+  background-color: #B58900;
+  transform: scale(1.0);
+}
+
+.solarized-button:focus {
+  outline: none;
+  box-shadow: 0 0 2px #268BD2;
+}
+header{
+  width: 60%;
+  background-color: #012730;
+  color: white;
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  aspect-ratio: 10/1;
+  box-shadow: 0 0 1px 1px #2AA198;
+  font-weight: bold;
+}
+
+
+/* Center the loading container */
+.App {
+  background-color: #002B36;
+  width: 98%;
+  aspect-ratio: 10/2;
+  justify-content: center;
+  align-items: center;
+  color: #00ffe9;
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+}
+
+/* Loading container */
+.loading-container {
+  text-align: center;
+}
+
+/* Binary line wrapper */
+.binary-line {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+/* Each binary character */
+.binary-char {
+  font-size: 15px;
+  letter-spacing: 2px;
+  animation: flicker 1s infinite;
+}
+
+/* Flicker animation for individual numbers */
+@keyframes flicker {
+  0% {
+    transform: scale(0.7);
+  }
+  25%{
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75%{
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+

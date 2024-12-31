@@ -1,0 +1,62 @@
+.textarea{
+    width: 100%;
+    aspect-ratio: 4/1;
+    background-image: linear-gradient(-45deg, rgb(50, 50, 50) 0%, rgb(76, 76, 76) 100%);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+}
+
+.label{
+    width: 20%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #2b2a2a;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    aspect-ratio: 10/2;
+    box-shadow: 2px 1px 5px 0 white;
+}
+fieldset{
+    width: 94%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 94%;
+    background-color: #011c22;
+}
+select{
+    width: 20%;
+    aspect-ratio: 10/4;
+}
+.test_case_section,select{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    float: right;
+    background-image: linear-gradient(-45deg, rgb(50, 50, 50) 0%, rgb(76, 76, 76) 100%);
+}
+.test_case_section{
+    color: white;
+    width: 60%;
+    aspect-ratio: 10/0.8;
+}
+option{
+    color: black;
+}
+.textarea:focus, .test_case_section:focus , select:focus{
+    color: #ffffff;
+
+}
+
+.event_btn{
+    outline: none;
+    border: none;
+    width: 30%;
+    border-radius: 10px;
+    aspect-ratio: 10/1.2;
+    background-image: linear-gradient(-45deg, rgb(186, 164, 95) 0%, rgb(214, 13, 13) 100%);
+}
